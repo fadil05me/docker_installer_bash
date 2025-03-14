@@ -13,7 +13,7 @@ echo -e "\n\n~~~Selesai Update & Upgrade!~~~\n\n"
 
 # Add Docker's official GPG key:
 echo -e "\n\n~~~Step 3: Menambahkan GPG key!~~~\n\n"
-sudo apt-get install ca-certificates curl
+sudo apt-get install ca-certificates curl -y
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
